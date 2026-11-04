@@ -3,8 +3,13 @@ import { useCallback, useEffect, useState } from 'react'
 export type Route = '/' | '/portfolio' | '/resume'
 
 const routes: Route[] = ['/', '/portfolio', '/resume']
+const BASE_META = document.querySelector<HTMLMetaElement>('meta[name="base"]')
+const BASE = (BASE_META?.content || '').replace(/\/$/, '')
+
 const normalise = (p: string): Route => {
-  const path = ('/' + p.replace(/^\/+|\/+$/g, '')).replace(/\/$/, '')
+  let path = p
+  if (BASE && path.startsWith(BASE + '/')) path = path.slice(BASE.length)
+  path = ('/' + path.replace(/^\/+|\/+$/g, '')).replace(/\/$/, '')
   const found = routes.find((r) => r === path || (r === '/' && path === ''))
   return found ? found : '/'
 }

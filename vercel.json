@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
+  ],
+  "routes": [
+    { "src": "/assets/(.*)", "headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "src": "/(.*\\.(png|jpg|jpeg|svg|webp|woff2|woff|ttf|otf|eot|ico|pdf))$", "headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
