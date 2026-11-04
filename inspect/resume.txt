@@ -1,0 +1,419 @@
+<div . @0,0 0x0 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+<header .relative z-[70] shrink-0 @0,0 1440x60 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+  <div .site-toolbar flex h-[60px] items-center justify-between gap-3 border-b-4 border-black bg-neutral-100 px-6 phone:px-4  @0,0 1440x60 bg=rgb(255, 255, 255) sh=none 16px/400 ls=normal br=0px bd=>
+    <nav .min-w-0 @24,10 197x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <ol .flex min-w-0 items-center gap-3 phone:gap-2 @24,10 197x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+        <li .flex min-w-0 shrink-0  @24,10 98x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <a .inline-flex h-9 shrink-0 items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 text-sm font-bold uppercase tracking-wide text-bla @24,10 98x36 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+            <img .size-5 brightness-0 @38,18 20x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+            <span .phone:sr-only @64,18 44x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: Home
+        <li .flex min-w-0   @134,10 86x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <span .inline-flex h-9 min-w-0 select-none items-center rounded-[6px] border border-black bg-neutral-100 px-3 text-sm font-bold uppercase tracking-wide text- @134,10 86x36 bg=rgb(255, 255, 255) sh=none 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+            <span .truncate @148,18 58x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: Résumé
+    <div .flex min-w-0 flex-1 phone:hidden @233,12 1000x31 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <div .site-hint relative ml-3 flex min-w-0 @245,12 309x31 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+        <p .min-w-0 truncate rounded-[8px] border border-black bg-primary-yellow-100 px-3 py-1 type-small font-bold text-black @245,12 309x31 bg=rgb(255, 240, 180) sh=none 14px/700 ls=normal br=8px bd=2px solid rgb(0, 0, 0)> TXT: Prefer paper? Grab the PDF on the right
+        <span .absolute -left-[6px] top-1/2 size-3 -translate-y-1/2 rotate-45 border-b border-l border-black bg-primary-yellow-100 @236,20 17x17 bg=rgb(255, 240, 180) sh=none 16px/400 ls=normal br=0px bd=>
+    <div .flex shrink-0 items-center gap-3 phone:hidden @1244,10 172x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <a .inline-flex h-9 shrink-0 items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 text-sm font-bold uppercase tracking-wide text-bla @1244,10 172x36 bg=rgb(255, 211, 30) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+        <img .size-5 @1258,18 20x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+    <div .hidden shrink-0 phone:flex @0,0 0x0 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <button .flex shrink-0 items-center justify-center rounded-full border border-black bg-secondary-200 shadow-[3px_3px_0px_0px_black] transition-[transform,box-s @0,0 0x0 bg=rgb(75, 106, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=3.35544e+07px bd=2px solid rgb(0, 0, 0)>
+        <img . @0,0 0x0 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+<main .fixed inset-x-0 bottom-0 top-[var(--site-header-h)] overflow-x-hidden overflow-y-auto bg-primary-300 @0,60 1440x840 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+  <div .mx-auto flex w-full max-w-[1180px] flex-col gap-12 px-6 py-12 phone:gap-9 phone:px-4 phone:py-8 @130,60 1180x4054 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+    <div .relative @154,108 1132x463 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <section .overflow-hidden rounded-[16px] border border-black bg-neutral-100 shadow-[8px_8px_0_#000] phone:shadow-[5px_5px_0_#000] @154,108 1132x463 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=16px bd=2px solid rgb(0, 0, 0)>
+        <div .flex shrink-0 items-center justify-between gap-3 border-black bg-primary-yellow-300 border-b px-4 py-2 @156,110 1128x36 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=0px bd=>
+          <span .min-w-0 truncate type-caption text-black @172,118 93x18 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.7px br=0px bd=0px solid rgb(0, 0, 0)> TXT: resume.exe
+          <span .flex shrink-0 items-center gap-1.5 @1208,119 60x16 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <span .rounded-[4px] border-black size-4 border bg-primary-yellow-300 @1208,119 16x16 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+            <span .rounded-[4px] border-black size-4 border bg-neutral-100 @1230,119 16x16 bg=rgb(255, 255, 255) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+            <span .rounded-[4px] border-black size-4 border bg-red-100 @1252,119 16x16 bg=rgb(251, 55, 72) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+        <div .flex flex-col gap-6 p-8 phone:gap-5 phone:p-5 @156,146 1128x424 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <div .flex flex-col gap-3 @188,178 1064x110 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <h1 .type-display text-black @188,178 1064x61 bg=rgba(0, 0, 0, 0) sh=none 64px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Leila Abbassova
+            <p .self-start -rotate-1 rounded-[8px] border border-black bg-secondary-300 px-3 py-1 type-label [--type-weight:500] text-neutral-100 shadow-[4px_4px_0_#0 @188,248 264x42 bg=rgb(0, 42, 240) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 20px/500 ls=0.5px br=8px bd=2px solid rgb(0, 0, 0)> TXT: Game UI/UX Designer
+          <p .max-w-[760px] type-lead text-neutral-1000 @188,311 760x99 bg=rgba(0, 0, 0, 0) sh=none 18px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Game UI/UX designer with 4+ years across RPG, strategy, life-sim, casual mobile and digita
+          <div .flex flex-wrap gap-2 @188,434 1064x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @188,434 193x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Saskatoon, SK, Canada
+            <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-green-100 @389,434 355x23 bg=rgb(132, 235, 180) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Open Work Permit (no sponsorship required)
+            <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-100 @752,434 377x23 bg=rgb(255, 240, 180) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Remote (Canada), on-site or hybrid (Saskatoon)
+          <div .flex flex-wrap items-center gap-4 pt-1 phone:flex-col phone:items-stretch @188,481 1064x56 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <a .inline-flex items-center justify-center gap-2 rounded-[8px] border border-black px-5 py-3 text-base font-bold uppercase tracking-wide text-black shado @188,485 212x52 bg=rgb(255, 211, 30) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/700 ls=0.4px br=8px bd=2px solid rgb(0, 0, 0)>
+              <img .size-6 @210,499 24x24 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=0.4px br=0px bd=0px solid rgb(0, 0, 0)>
+            <a .inline-flex items-center justify-center gap-2 rounded-[8px] border border-black px-5 py-3 text-base font-bold uppercase tracking-wide text-black shado @416,485 126x52 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/700 ls=0.4px br=8px bd=2px solid rgb(0, 0, 0)> TXT: Email me
+            <ul .flex gap-2 phone:justify-center @559,487 160x48 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <li . @559,487 48x48 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .flex size-12 items-center justify-center rounded-[8px] border border-black bg-neutral-100 shadow-[3px_3px_0_#000] transition-[transform,box-shadow,bac @559,487 48x48 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=8px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-6 @571,499 24x24 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <li . @615,487 48x48 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .flex size-12 items-center justify-center rounded-[8px] border border-black bg-neutral-100 shadow-[3px_3px_0_#000] transition-[transform,box-shadow,bac @615,487 48x48 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=8px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-6 @627,499 24x24 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <li . @671,487 48x48 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .flex size-12 items-center justify-center rounded-[8px] border border-black bg-neutral-100 shadow-[3px_3px_0_#000] transition-[transform,box-shadow,bac @671,487 48x48 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=8px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-6 @683,499 24x24 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+    <ul .grid grid-cols-4 gap-5 phone:grid-cols-2 phone:gap-4 @154,619 1132x119 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <li .flex flex-col gap-1 rounded-[12px] border border-black p-4 shadow-[6px_6px_0_#000] phone:p-3 phone:shadow-[4px_4px_0_#000] bg-primary-yellow-300 @152,615 272x128 bg=rgb(255, 211, 30) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+        <span .type-stat text-black @171,633 233x52 bg=rgba(0, 0, 0, 0) sh=none 44px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: 4+
+        <span .type-caption [--type-weight:600] text-secondary-500 @172,681 232x26 bg=rgba(0, 0, 0, 0) sh=none 14px/600 ls=0.7px br=0px bd=0px solid rgb(0, 23, 133)> TXT: years in game UI/UX
+      <li .flex flex-col gap-1 rounded-[12px] border border-black p-4 shadow-[6px_6px_0_#000] phone:p-3 phone:shadow-[4px_4px_0_#000] bg-neutral-100 @440,616 271x126 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+        <span .type-stat text-black @460,634 233x50 bg=rgba(0, 0, 0, 0) sh=none 44px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: 2
+        <span .type-caption [--type-weight:600] text-secondary-500 @459,682 233x41 bg=rgba(0, 0, 0, 0) sh=none 14px/600 ls=0.7px br=0px bd=0px solid rgb(0, 23, 133)> TXT: shipped games as sole UI/UX
+      <li .flex flex-col gap-1 rounded-[12px] border border-black p-4 shadow-[6px_6px_0_#000] phone:p-3 phone:shadow-[4px_4px_0_#000] bg-secondary-100 @729,617 270x124 bg=rgb(165, 181, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+        <span .type-stat text-black @747,635 233x48 bg=rgba(0, 0, 0, 0) sh=none 44px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: 100+
+        <span .type-caption [--type-weight:600] text-secondary-500 @748,683 233x39 bg=rgba(0, 0, 0, 0) sh=none 14px/600 ls=0.7px br=0px bd=0px solid rgb(0, 23, 133)> TXT: screens on one strategy game
+      <li .flex flex-col gap-1 rounded-[12px] border border-black p-4 shadow-[6px_6px_0_#000] phone:p-3 phone:shadow-[4px_4px_0_#000] bg-green-100 @1016,615 272x128 bg=rgb(132, 235, 180) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+        <span .type-stat text-black @1036,633 233x52 bg=rgba(0, 0, 0, 0) sh=none 44px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: +27%
+        <span .type-caption [--type-weight:600] text-secondary-500 @1035,681 233x43 bg=rgba(0, 0, 0, 0) sh=none 14px/600 ls=0.7px br=0px bd=0px solid rgb(0, 23, 133)> TXT: trades after a flow redesign
+    <div .grid grid-cols-[360px_minmax(0,1fr)] items-start gap-8 phone:grid-cols-1 phone:gap-9 @154,786 1132x2976 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <aside .flex flex-col gap-8 phone:order-2 phone:gap-9 @154,786 360x1669 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+        <section .overflow-hidden rounded-[16px] border border-black bg-neutral-100 shadow-[8px_8px_0_#000] phone:shadow-[5px_5px_0_#000]  @154,786 360x1142 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=16px bd=2px solid rgb(0, 0, 0)>
+          <div .flex shrink-0 items-center justify-between gap-3 border-black bg-primary-yellow-300 border-b px-4 py-2 @156,788 356x36 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=0px bd=>
+            <span .min-w-0 truncate type-caption text-black @172,796 88x18 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.7px br=0px bd=0px solid rgb(0, 0, 0)> TXT: skills.cfg
+            <span .flex shrink-0 items-center gap-1.5 @436,797 60x16 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-primary-yellow-300 @436,797 16x16 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-neutral-100 @458,797 16x16 bg=rgb(255, 255, 255) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-red-100 @480,797 16x16 bg=rgb(251, 55, 72) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+          <div .flex flex-col gap-5 p-5 @156,824 356x1103 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <h2 .type-heading text-black @176,844 316x30 bg=rgba(0, 0, 0, 0) sh=none 24px/900 ls=0.6px br=0px bd=0px solid rgb(0, 0, 0)> TXT: Skills
+            <div .flex flex-col gap-2 @176,894 316x223 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <h3 .type-eyebrow text-neutral-900 @176,894 316x18 bg=rgba(0, 0, 0, 0) sh=none 14px/500 ls=0.7px br=0px bd=0px solid rgb(74, 74, 74)> TXT: Game UI/UX
+              <div .flex flex-wrap gap-1.5 @176,919 316x197 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,919 48x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: HUD
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @230,919 190x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Inventory & equipment
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,948 89x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Crafting
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @271,948 83x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Building
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,977 214x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Combat & command menus
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1006 102x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: World map
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @284,1006 189x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Multiplayer join flows
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1035 247x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Trading & marketplace flows
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1064 165x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Multi-state screens
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1093 217x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Controller & handheld UI
+            <div .flex flex-col gap-2 @176,1136 316x93 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <h3 .type-eyebrow text-neutral-900 @176,1136 316x18 bg=rgba(0, 0, 0, 0) sh=none 14px/500 ls=0.7px br=0px bd=0px solid rgb(74, 74, 74)> TXT: UI art
+              <div .flex flex-wrap gap-1.5 @176,1162 316x67 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1162 61x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Icons
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @243,1162 109x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Characters
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @358,1162 46x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: VFX
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1191 316x38 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: UI animation (Figma motion, Lottie, frame-by-frame)
+            <div .flex flex-col gap-2 @176,1249 316x107 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <h3 .type-eyebrow text-neutral-900 @176,1249 316x18 bg=rgba(0, 0, 0, 0) sh=none 14px/500 ls=0.7px br=0px bd=0px solid rgb(74, 74, 74)> TXT: Process
+              <div .flex flex-wrap gap-1.5 @176,1274 316x81 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1274 182x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Competitive research
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @364,1274 103x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: User flows
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1303 104x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Wireframes
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @286,1303 106x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Prototypes
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1332 110x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Playtesting
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @292,1332 124x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Focus groups
+            <div .flex flex-col gap-2 @176,1375 316x151 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <h3 .type-eyebrow text-neutral-900 @176,1375 316x18 bg=rgba(0, 0, 0, 0) sh=none 14px/500 ls=0.7px br=0px bd=0px solid rgb(74, 74, 74)> TXT: Handoff
+              <div .flex flex-wrap gap-1.5 @176,1401 316x125 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1401 269x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Figma design systems & variables
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1430 316x38 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: 9-slice & resolution-independent assets
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1474 118x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Sprite sheets
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @300,1474 192x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Annotated prototypes
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1503 209x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: UI breakdown documents
+            <div .flex flex-col gap-2 @176,1546 316x93 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <h3 .type-eyebrow text-neutral-900 @176,1546 316x18 bg=rgba(0, 0, 0, 0) sh=none 14px/500 ls=0.7px br=0px bd=0px solid rgb(74, 74, 74)> TXT: Code
+              <div .flex flex-wrap gap-1.5 @176,1571 316x67 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1571 56x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: HTML
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @238,1571 214x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: CSS (working knowledge)
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1600 316x38 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: AI-assisted interactive prototypes in VS Code
+            <div .flex flex-col gap-2 @176,1658 316x122 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <h3 .type-eyebrow text-neutral-900 @176,1658 316x18 bg=rgba(0, 0, 0, 0) sh=none 14px/500 ls=0.7px br=0px bd=0px solid rgb(74, 74, 74)> TXT: Engines
+              <div .flex flex-wrap gap-1.5 @176,1684 316x96 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1684 316x38 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Unity (uGUI, UI Toolkit, asset import, UI anchoring)
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1728 249x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Unreal Engine (asset handoff)
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1757 196x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: React (design handoff)
+            <div .flex flex-col gap-2 @176,1800 316x107 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <h3 .type-eyebrow text-neutral-900 @176,1800 316x18 bg=rgba(0, 0, 0, 0) sh=none 14px/500 ls=0.7px br=0px bd=0px solid rgb(74, 74, 74)> TXT: Tools
+              <div .flex flex-wrap gap-1.5 @176,1825 316x81 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1825 63x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Figma
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @245,1825 67x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: FigJam
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @318,1825 148x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Affinity Designer
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1854 103x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Photoshop
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @285,1854 108x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Illustrator
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @399,1854 58x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Krita
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @176,1883 53x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Miro
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @235,1883 88x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Milanote
+                <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-100 @329,1883 73x23 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Notion
+        <section .overflow-hidden rounded-[16px] border border-black bg-neutral-100 shadow-[8px_8px_0_#000] phone:shadow-[5px_5px_0_#000]  @154,1992 360x204 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=16px bd=2px solid rgb(0, 0, 0)>
+          <div .flex shrink-0 items-center justify-between gap-3 border-black bg-primary-yellow-300 border-b px-4 py-2 @156,1994 356x36 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=0px bd=>
+            <span .min-w-0 truncate type-caption text-black @172,2002 133x18 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.7px br=0px bd=0px solid rgb(0, 0, 0)> TXT: languages.txt
+            <span .flex shrink-0 items-center gap-1.5 @436,2003 60x16 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-primary-yellow-300 @436,2003 16x16 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-neutral-100 @458,2003 16x16 bg=rgb(255, 255, 255) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-red-100 @480,2003 16x16 bg=rgb(251, 55, 72) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+          <div .flex flex-col gap-4 p-5 @156,2030 356x164 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <h2 .type-heading text-black @176,2050 316x30 bg=rgba(0, 0, 0, 0) sh=none 24px/900 ls=0.6px br=0px bd=0px solid rgb(0, 0, 0)> TXT: Languages
+            <ul .flex flex-col gap-2 @176,2096 316x78 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <li .flex items-stretch overflow-hidden rounded-[8px] border border-black type-chip @176,2096 316x35 bg=rgba(0, 0, 0, 0) sh=none 12px/600 ls=0.6px br=8px bd=2px solid rgb(0, 0, 0)>
+                <span .flex-1 bg-neutral-100 px-3 py-2 @178,2098 238x31 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=0px bd=0px solid rgb(0, 0, 0)> TXT: Russian
+                <span .border-l border-black bg-black px-3 py-2 text-screen-green @416,2098 74x31 bg=rgb(0, 0, 0) sh=none 12px/600 ls=0.6px br=0px bd=> TXT: Native
+              <li .flex items-stretch overflow-hidden rounded-[8px] border border-black type-chip @176,2139 316x35 bg=rgba(0, 0, 0, 0) sh=none 12px/600 ls=0.6px br=8px bd=2px solid rgb(0, 0, 0)>
+                <span .flex-1 bg-neutral-100 px-3 py-2 @178,2141 199x31 bg=rgb(255, 255, 255) sh=none 12px/600 ls=0.6px br=0px bd=0px solid rgb(0, 0, 0)> TXT: English
+                <span .border-l border-black bg-black px-3 py-2 text-screen-green @377,2141 113x31 bg=rgb(0, 0, 0) sh=none 12px/600 ls=0.6px br=0px bd=> TXT: B2 · IELTS 6.5
+        <section .overflow-hidden rounded-[16px] border border-black bg-neutral-100 shadow-[8px_8px_0_#000] phone:shadow-[5px_5px_0_#000]  @154,2228 360x260 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=16px bd=2px solid rgb(0, 0, 0)>
+          <div .flex shrink-0 items-center justify-between gap-3 border-black bg-primary-yellow-300 border-b px-4 py-2 @156,2230 356x36 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=0px bd=>
+            <span .min-w-0 truncate type-caption text-black @172,2238 131x18 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.7px br=0px bd=0px solid rgb(0, 0, 0)> TXT: education.doc
+            <span .flex shrink-0 items-center gap-1.5 @436,2239 60x16 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-primary-yellow-300 @436,2239 16x16 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-neutral-100 @458,2239 16x16 bg=rgb(255, 255, 255) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+              <span .rounded-[4px] border-black size-4 border bg-red-100 @480,2239 16x16 bg=rgb(251, 55, 72) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+          <div .flex flex-col gap-3 p-5 @156,2265 356x220 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <h2 .type-heading text-black @176,2285 316x30 bg=rgba(0, 0, 0, 0) sh=none 24px/900 ls=0.6px br=0px bd=0px solid rgb(0, 0, 0)> TXT: Education
+            <p .type-card-title text-black @176,2327 316x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: BSc, Petroleum Engineering
+            <p .type-body text-neutral-900 @176,2364 316x66 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(74, 74, 74)> TXT: Abylkas Saginov Karaganda Technical University (formerly Karaganda State Technical Univers
+            <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black self-start bg-primary-yellow-300 @176,2442 103x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: 2014 – 2018
+      <div .flex flex-col gap-10 phone:order-1 phone:gap-8 @546,786 740x2976 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+        <section .flex flex-col gap-5 @546,786 740x2216 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <div .flex flex-wrap items-center gap-x-4 gap-y-2 @546,786 740x45 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <h2 .-rotate-1 rounded-[8px] border border-black bg-black px-4 py-2 type-label text-primary-yellow-300 shadow-[4px_4px_0_var(--color-primary-500)] @546,783 322x51 bg=rgb(0, 0, 0) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 20px/900 ls=0.5px br=8px bd=2px solid rgb(0, 0, 0)> TXT: Experience · Game UI/UX
+          <div .flex flex-col gap-5 @546,851 740x2151 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,879 740x319 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,901 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,901 224x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,901 224x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Game UI/UX Designer
+                  <p .mt-1 type-meta text-neutral-900 @568,930 224x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @664,929 71x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Slovenia
+                <div .flex shrink-0 flex-wrap gap-2 @944,901 320x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @944,901 156x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Jun 2025 – Present
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1107,901 157x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Contract, Remote
+              <ul .mt-4 flex flex-col gap-2 @568,968 696x208 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,968 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,975 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,968 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Sole UI/UX designer on a Lovecraftian co-op digital board game in Unity, inspired by Eldri
+                <li .flex gap-3 type-body text-neutral-1000 @568,1020 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1027 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1020 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed the complete UI from a text-only design document: menu, character selection, HUD,
+                <li .flex gap-3 type-body text-neutral-1000 @568,1072 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1079 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1072 634x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed multi-state screens for simultaneous board events, such as normal and ruined citi
+                <li .flex gap-3 type-body text-neutral-1000 @568,1102 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1109 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1102 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Ran two prototype playtests; fixed ability visibility and status clutter, with no friction
+                <li .flex gap-3 type-body text-neutral-1000 @568,1154 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1161 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1154 570x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Delivered sprite sheets, Figma prototypes and AI-assisted coded interaction demos.
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,1218 740x319 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,1240 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,1240 355x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,1240 355x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Game UI/UX Designer and UI Artist
+                  <p .mt-1 type-meta text-neutral-900 @568,1269 355x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @669,1268 134x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Baku, Azerbaijan
+                <div .flex shrink-0 flex-wrap gap-2 @993,1240 271x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @993,1240 167x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Nov 2024 – Feb 2025
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1169,1240 95x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Freelance
+              <ul .mt-4 flex flex-col gap-2 @568,1307 696x156 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,1307 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1314 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1307 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Sole UI/UX designer and artist on Furball Fruits, a cat-themed merge puzzle game in Unity,
+                <li .flex gap-3 type-body text-neutral-1000 @568,1359 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1366 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1359 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Created the visual style and all vector cat characters in Affinity Designer; designed menu
+                <li .flex gap-3 type-body text-neutral-1000 @568,1411 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1418 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1411 647x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Created icons, merge and bomb VFX, and UI animations (Figma motion, Lottie, frame-by-frame
+                <li .flex gap-3 type-body text-neutral-1000 @568,1441 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1448 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1441 343x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Imported assets into Unity and set up UI anchoring.
+              <div .mt-4 flex flex-wrap gap-3 @568,1479 696x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .inline-flex items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 py-1.5 text-sm font-bold uppercase tracking-wide text-black sha @568,1479 148x36 bg=rgb(165, 181, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-5 brightness-0 rotate-180 @682,1487 20x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .inline-flex items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 py-1.5 text-sm font-bold uppercase tracking-wide text-black sha @728,1479 157x36 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-4 brightness-0 @854,1489 16x16 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .sr-only @805,1497 1x1 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: (opens in a new tab)
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,1557 740x363 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,1579 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,1579 245x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,1579 245x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: UI/UX Designer
+                  <p .mt-1 type-meta text-neutral-900 @568,1608 245x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @628,1607 185x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Vancouver, BC, Canada
+                <div .flex shrink-0 flex-wrap gap-2 @939,1579 325x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @939,1579 160x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Jan 2024 – Feb 2025
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1107,1579 157x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Contract, Remote
+              <ul .mt-4 flex flex-col gap-2 @568,1646 696x200 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,1646 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1653 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1646 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Sole UI/UX designer on dupe.fi, a crypto-based CS2 item trading marketplace, rated 4.5 on 
+                <li .flex gap-3 type-body text-neutral-1000 @568,1698 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1705 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1698 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed the full web app from wireframes to release: wallet sign-up, listing, trading, wi
+                <li .flex gap-3 type-body text-neutral-1000 @568,1750 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1757 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1750 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Redesigned the trading flow with guidance on seller stats, refunds and scam protection; to
+                <li .flex gap-3 type-body text-neutral-1000 @568,1802 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,1809 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,1802 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Built a Figma design system with variables, light/dark themes, mobile layouts and Lottie a
+              <div .mt-4 flex flex-wrap gap-3 @568,1862 696x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .inline-flex items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 py-1.5 text-sm font-bold uppercase tracking-wide text-black sha @568,1862 148x36 bg=rgb(165, 181, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-5 brightness-0 rotate-180 @682,1870 20x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .inline-flex items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 py-1.5 text-sm font-bold uppercase tracking-wide text-black sha @728,1862 106x36 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-4 brightness-0 @804,1872 16x16 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .sr-only @780,1880 1x1 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: (opens in a new tab)
+                <a .inline-flex items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 py-1.5 text-sm font-bold uppercase tracking-wide text-black sha @846,1862 145x36 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-4 brightness-0 @960,1872 16x16 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .sr-only @918,1880 1x1 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: (opens in a new tab)
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,1940 740x289 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,1962 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,1962 319x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,1962 319x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Game UI/UX Designer
+                  <p .mt-1 type-meta text-neutral-900 @568,1991 319x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @757,1990 130x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Shanghai, China
+                <div .flex shrink-0 flex-wrap gap-2 @935,1962 329x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @935,1962 162x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Dec 2023 – Jun 2024
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1106,1962 158x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Freelance, Remote
+              <ul .mt-4 flex flex-col gap-2 @568,2029 696x178 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,2029 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2036 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2029 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Sole UI/UX designer on a third-person co-op farming and life-sim RPG in Unreal Engine (PC,
+                <li .flex gap-3 type-body text-neutral-1000 @568,2081 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2088 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2081 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Researched multiplayer join flows; the client adopted the proposed host-and-join model wit
+                <li .flex gap-3 type-body text-neutral-1000 @568,2133 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2140 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2133 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed the full UI: character creation, HUD, inventory, crafting, cooking, NPC relations
+                <li .flex gap-3 type-body text-neutral-1000 @568,2185 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2192 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2185 413x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Delivered Figma designs for implementation in Unreal Engine.
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,2249 740x363 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,2271 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,2271 224x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,2271 224x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Game UI/UX Designer
+                  <p .mt-1 type-meta text-neutral-900 @568,2300 224x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @704,2299 45x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · India
+                <div .flex shrink-0 flex-wrap gap-2 @934,2271 330x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @934,2271 163x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Jun 2023 – Aug 2023
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1106,2271 158x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Freelance, Remote
+              <ul .mt-4 flex flex-col gap-2 @568,2338 696x200 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,2338 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2345 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2338 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Sole UI/UX designer on The Last King, an open-world survival RPG with army command in Unre
+                <li .flex gap-3 type-body text-neutral-1000 @568,2390 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2397 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2390 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Redesigned the character and inventory screen: one equipment view, gear slots on a 3D mode
+                <li .flex gap-3 type-body text-neutral-1000 @568,2442 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2449 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2442 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed the Command Manager: 6 commands with sub-commands, each order issued with two num
+                <li .flex gap-3 type-body text-neutral-1000 @568,2494 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2501 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2494 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Delivered 20+ screens, 50+ icons, a typography system and a Figma design system with 9-sli
+              <div .mt-4 flex flex-wrap gap-3 @568,2554 696x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .inline-flex items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 py-1.5 text-sm font-bold uppercase tracking-wide text-black sha @568,2554 148x36 bg=rgb(165, 181, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-5 brightness-0 rotate-180 @682,2562 20x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .inline-flex items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 py-1.5 text-sm font-bold uppercase tracking-wide text-black sha @728,2554 101x36 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-4 brightness-0 @798,2564 16x16 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .sr-only @777,2572 1x1 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: (opens in a new tab)
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,2632 740x133 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,2654 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,2654 252x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,2654 252x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Game UI/UX Designer
+                  <p .mt-1 type-meta text-neutral-900 @568,2683 252x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @703,2682 117x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Sofia, Bulgaria
+                <div .flex shrink-0 flex-wrap gap-2 @930,2654 334x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @930,2654 167x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Mar 2023 – May 2023
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1106,2654 158x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Freelance, Remote
+              <ul .mt-4 flex flex-col gap-2 @568,2721 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,2721 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2728 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2721 516x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed game icons and a UI asset moodboard setting the visual direction.
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,2785 740x245 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,2807 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,2807 290x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,2807 290x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: UI/UX Designer
+                  <p .mt-1 type-meta text-neutral-900 @568,2836 290x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @724,2835 134x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Baku, Azerbaijan
+                <div .flex shrink-0 flex-wrap gap-2 @943,2807 321x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @943,2807 165x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: May 2022 – Apr 2023
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1116,2807 148x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Full-time, On-site
+              <ul .mt-4 flex flex-col gap-2 @568,2874 696x134 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,2874 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2881 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2874 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Sole UI/UX designer on an unreleased Solana-based strategy game inspired by OGame (paused,
+                <li .flex gap-3 type-body text-neutral-1000 @568,2926 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2933 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2926 611x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed 100+ screens: planet development, economy, attacks, NFT minting and trading.
+                <li .flex gap-3 type-body text-neutral-1000 @568,2956 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2963 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2956 516x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Wrote user stories and flows; validated screens with a Discord focus group.
+                <li .flex gap-3 type-body text-neutral-1000 @568,2986 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,2993 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,2986 490x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Created UI assets and animation specs; prepared sliced assets for Unity.
+        <section .flex flex-col gap-5 @546,3042 740x720 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <div .flex flex-wrap items-center gap-x-4 gap-y-2 @546,3042 740x45 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <h2 .-rotate-1 rounded-[8px] border border-black bg-black px-4 py-2 type-label text-primary-yellow-300 shadow-[4px_4px_0_var(--color-primary-500)] @546,3040 210x49 bg=rgb(0, 0, 0) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 20px/900 ls=0.5px br=8px bd=2px solid rgb(0, 0, 0)> TXT: Product UI/UX
+          <div .flex flex-col gap-5 @546,3107 740x655 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,3135 740x327 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,3157 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,3157 179x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,3157 179x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: UI/UX Designer
+                  <p .mt-1 type-meta text-neutral-900 @568,3186 179x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @628,3185 119x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Moscow, Russia
+                <div .flex shrink-0 flex-wrap gap-2 @932,3157 332x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @932,3157 167x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Mar 2024 – Sep 2026
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1107,3157 157x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Contract, Remote
+              <ul .mt-4 flex flex-col gap-2 @568,3224 696x164 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,3224 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,3231 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,3224 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Sole UI/UX designer on SigMarket, a B2C and B2B same-day produce delivery marketplace (web
+                <li .flex gap-3 type-body text-neutral-1000 @568,3276 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,3283 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,3276 535x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed a supplier app for users aged 30–50 with limited digital experience.
+                <li .flex gap-3 type-body text-neutral-1000 @568,3306 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,3313 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,3306 635x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed a courier interface for fast item picking and missing-item reporting on small scr
+                <li .flex gap-3 type-body text-neutral-1000 @568,3336 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,3343 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,3336 656x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Mapped all product workflows into flowcharts for developers and stakeholders after field t
+                <li .flex gap-3 type-body text-neutral-1000 @568,3366 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,3373 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,3366 533x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed a help center with a kanban issue board that surfaces urgent tickets.
+              <div .mt-4 flex flex-wrap gap-3 @568,3404 696x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <a .inline-flex items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 py-1.5 text-sm font-bold uppercase tracking-wide text-black sha @568,3404 159x36 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+                  <img .size-4 brightness-0 @697,3414 16x16 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .sr-only @647,3422 1x1 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: (opens in a new tab)
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,3482 740x155 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,3504 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,3504 264x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,3504 264x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: UI/UX Designer
+                  <p .mt-1 type-meta text-neutral-900 @568,3533 264x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @686,3532 146x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Kaliningrad, Russia
+                <div .flex shrink-0 flex-wrap gap-2 @1021,3504 243x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @1021,3504 161x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Jan 2022 – Apr 2022
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1190,3504 74x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Remote
+              <ul .mt-4 flex flex-col gap-2 @568,3571 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,3571 696x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,3578 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,3571 674x44 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Designed UI for CS case-opening and betting web platforms (dice, trend bets, card games), 
+            <article .rounded-[12px] border border-black bg-neutral-100 p-5 shadow-[6px_6px_0_#000] phone:p-4 phone:shadow-[4px_4px_0_#000] @546,3657 740x133 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=12px bd=2px solid rgb(0, 0, 0)>
+              <header .flex flex-wrap items-start justify-between gap-x-4 gap-y-2 @568,3679 696x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <div .min-w-0 @568,3679 414x51 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <h3 .type-card-title text-black @568,3679 414x25 bg=rgba(0, 0, 0, 0) sh=none 20px/900 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Visual Design Specialist
+                  <p .mt-1 type-meta text-neutral-900 @568,3708 414x22 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=normal br=0px bd=0px solid rgb(74, 74, 74)>
+                    <span .font-medium text-neutral-800 @799,3707 183x23 bg=rgba(0, 0, 0, 0) sh=none 16px/500 ls=normal br=0px bd=0px solid rgb(96, 96, 96)> TXT: · Karaganda, Kazakhstan
+                <div .flex shrink-0 flex-wrap gap-2 @1018,3679 246x23 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-primary-yellow-300 @1018,3679 165x23 bg=rgb(255, 211, 30) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Dec 2020 – May 2021
+                  <span .inline-flex items-center rounded-[6px] border border-black px-2 py-0.5 type-chip text-black bg-neutral-200 @1192,3679 72x23 bg=rgb(232, 232, 232) sh=none 12px/600 ls=0.6px br=6px bd=2px solid rgb(0, 0, 0)> TXT: On-site
+              <ul .mt-4 flex flex-col gap-2 @568,3746 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                <li .flex gap-3 type-body text-neutral-1000 @568,3746 696x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+                  <span .mt-[7px] size-2.5 shrink-0 border border-black bg-primary-300 @568,3753 10x10 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=2px solid rgb(0, 0, 0)>
+                  <span . @590,3746 430x22 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Produced graphics and promotional layouts for digital and print.
+    <section .overflow-hidden rounded-[16px] border border-black bg-neutral-100 shadow-[8px_8px_0_#000] phone:shadow-[5px_5px_0_#000] mx-auto w-full max-w-[720px] @360,3842 720x256 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=16px bd=2px solid rgb(0, 0, 0)>
+      <div .flex shrink-0 items-center justify-between gap-3 border-black bg-primary-yellow-300 border-b px-4 py-2 @362,3844 716x36 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=0px bd=>
+        <span .min-w-0 truncate type-caption text-black @378,3852 120x18 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.7px br=0px bd=0px solid rgb(0, 0, 0)> TXT: next_step.exe
+        <span .flex shrink-0 items-center gap-1.5 @1002,3853 60x16 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <span .rounded-[4px] border-black size-4 border bg-primary-yellow-300 @1002,3853 16x16 bg=rgb(255, 211, 30) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+          <span .rounded-[4px] border-black size-4 border bg-neutral-100 @1024,3853 16x16 bg=rgb(255, 255, 255) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+          <span .rounded-[4px] border-black size-4 border bg-red-100 @1046,3853 16x16 bg=rgb(251, 55, 72) sh=none 16px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+      <div .flex flex-col items-center gap-5 p-8 text-center phone:p-5 @362,3880 716x216 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+        <h2 .type-title text-black @580,3912 280x36 bg=rgba(0, 0, 0, 0) sh=none 34px/600 ls=normal br=0px bd=0px solid rgb(0, 0, 0)> TXT: Want it on paper?
+        <p .type-lead text-neutral-900 @475,3967 490x25 bg=rgba(0, 0, 0, 0) sh=none 18px/400 ls=normal br=0px bd=0px solid rgb(74, 74, 74)> TXT: Grab the PDF version of this resume, or see the work behind it.
+        <div .flex flex-wrap justify-center gap-4 phone:flex-col phone:self-stretch @481,4012 479x52 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <a .inline-flex items-center justify-center gap-2 rounded-[8px] border border-black px-5 py-3 text-base font-bold uppercase tracking-wide text-black shado @481,4012 212x52 bg=rgb(255, 211, 30) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/700 ls=0.4px br=8px bd=2px solid rgb(0, 0, 0)>
+            <img .size-6 @503,4026 24x24 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=0.4px br=0px bd=0px solid rgb(0, 0, 0)>
+          <a .inline-flex items-center justify-center gap-2 rounded-[8px] border border-black px-5 py-3 text-base font-bold uppercase tracking-wide text-black shado @709,4012 250x52 bg=rgb(165, 181, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/700 ls=0.4px br=8px bd=2px solid rgb(0, 0, 0)>
+            <img .size-5 brightness-0 rotate-180 @917,4028 20x20 bg=rgba(0, 0, 0, 0) sh=none 16px/700 ls=0.4px br=0px bd=0px solid rgb(0, 0, 0)>
+<div .pointer-events-none fixed inset-0 z-[60] overflow-hidden print:hidden @0,0 1440x900 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+  <div .cotton-overlay @0,0 1440x900 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+<next-route-announcer . @0,60 0x0 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
