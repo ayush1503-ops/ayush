@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
-import { profile } from '../lib/site'
+import { socials } from '../lib/site'
+import { SOCIAL_BRAND, SocialGlyph } from './Socials'
 
 /**
  * The reference's portfolio page: a laptop on the desk running PORTFOLIO.EXE,
@@ -82,19 +83,17 @@ export function DeskScene({ children, onHome }: { children: ReactNode; onHome: (
               <p className="mt-[1px] text-[8px] font-black uppercase leading-none text-ink/80">ayush · del</p>
             </div>
             <div className="mt-1 flex flex-col gap-[3px]">
-              {[
-                { label: 'LinkedIn', href: profile.socials[0].href },
-                { label: 'Email', href: profile.socials[1].href },
-                { label: 'WhatsApp', href: profile.socials[2].href },
-              ].map((l) => (
+              {socials.map((s) => (
                 <a
-                  key={l.label}
-                  href={l.href}
+                  key={s.id}
+                  href={s.href}
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="flex h-[24px] items-center justify-center rounded-[3px] border-2 border-ink bg-grape-400 text-[7.5px] font-black uppercase tracking-[0.03em] text-cream-100 transition-colors hover:bg-grape-500"
+                  aria-label={s.label}
+                  title={s.label}
+                  className={`flex h-[22px] items-center justify-center rounded-[3px] border-2 border-ink transition-transform hover:-translate-y-[1px] ${SOCIAL_BRAND[s.id].box} ${SOCIAL_BRAND[s.id].glyph}`}
                 >
-                  {l.label}
+                  <SocialGlyph id={s.id} className="size-[12px]" />
                 </a>
               ))}
             </div>

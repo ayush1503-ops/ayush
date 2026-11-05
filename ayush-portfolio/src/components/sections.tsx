@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { ArrowLink, Reveal, Stamp } from './primitives'
-import { faq, gmailCompose, guarantees, profile, sprints } from '../lib/site'
+import { faq, gmailCompose, guarantees, profile, social, sprints } from '../lib/site'
+import { SocialMark } from './Socials'
 
 const guaranteeTone = ['bg-sun-100', 'bg-grape-100', 'bg-mint-100', 'bg-chilli-100']
 
@@ -123,14 +124,17 @@ export function ContactBand({ onNavigate, compact = false }: { onNavigate: (to: 
           within a day.
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-3">
-          <a href={gmailCompose()} target="_blank" rel="noreferrer noopener" className="btn btn-sun">
+          <a href={social.gmail.href} target="_blank" rel="noreferrer noopener" className="btn btn-sun gap-2">
+            <SocialMark id="gmail" className="size-[20px]" glyphClass="size-[12px]" />
             {profile.email}
           </a>
-          <a href={profile.socials[2].href} target="_blank" rel="noreferrer noopener" className="btn btn-mint">
-            WhatsApp ↗
+          <a href={social.whatsapp.href} target="_blank" rel="noreferrer noopener" className="btn btn-mint gap-2">
+            <SocialMark id="whatsapp" className="size-[20px]" glyphClass="size-[12px]" />
+            WhatsApp
           </a>
-          <a href={profile.socials[0].href} target="_blank" rel="noreferrer noopener" className="btn !bg-grape-400 !text-cream-100">
-            LinkedIn ↗
+          <a href={social.linkedin.href} target="_blank" rel="noreferrer noopener" className="btn !bg-grape-400 !text-cream-100 gap-2">
+            <SocialMark id="linkedin" className="size-[20px]" glyphClass="size-[12px]" />
+            LinkedIn
           </a>
         </div>
 

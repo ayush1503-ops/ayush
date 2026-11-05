@@ -2,8 +2,10 @@ import { useState } from 'react'
 import { CartridgeRack } from './CartridgeRack'
 import { Faq, Tariff } from './sections'
 import { Stamp } from './primitives'
-import { arsenal, fitList, gmailCompose, profile, skills } from '../lib/site'
+import { arsenal, fitList, gmailCompose, profile, skills, socials } from '../lib/site'
 import type { Project } from '../lib/site'
+import { GmailIcon } from './BrandIcons'
+import { SocialLink } from './Socials'
 
 const TABS = [
   { id: 'work', label: 'Work' },
@@ -13,14 +15,20 @@ const TABS = [
   { id: 'contact', label: 'Contact' },
 ] as const
 
-type TabId = (typeof TABS)[number]['id']
+export type TabId = (typeof TABS)[number]['id']
 
 /**
  * Everything the site has to say, inside one window — the way the reference keeps
  * a whole portfolio on a single screen.
  */
-export function PortfolioApp({ onOpen }: { onOpen: (p: Project) => void }) {
-  const [tab, setTab] = useState<TabId>('work')
+export function PortfolioApp({
+  onOpen,
+  initialTab = 'work',
+}: {
+  onOpen: (p: Project) => void
+  initialTab?: TabId
+}) {
+  const [tab, setTab] = useState<TabId>(initialTab)
 
   return (
     <div className="overflow-hidden rounded-[8px] border-2 border-ink bg-cream-100">
@@ -109,29 +117,27 @@ export function PortfolioApp({ onOpen }: { onOpen: (p: Project) => void }) {
                 href={gmailCompose()}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="mt-2 inline-flex min-h-[26px] items-center rounded-[4px] border-2 border-sun-300 bg-sun-300 px-2 text-[10.5px] font-black uppercase text-ink"
+                className="mt-2 inline-flex min-h-[26px] items-center gap-1.5 rounded-[4px] border-2 border-sun-300 bg-sun-300 px-2 text-[10.5px] font-black uppercase text-ink"
               >
+                <GmailIcon className="size-[13px]" />
                 {profile.email} ↗
               </a>
             </div>
             <ul className="grid grid-cols-2 gap-1.5 tab:grid-cols-1">
-              {[
-                { label: 'LinkedIn', href: profile.socials[0].href },
-                { label: 'Email', href: profile.socials[1].href },
-                { label: 'WhatsApp', href: profile.socials[2].href },
-                { label: 'Download CV', href: '/ayush-thakur-cv.pdf' },
-              ].map((l) => (
-                <li key={l.label}>
-                  <a
-                    href={l.href}
-                    target={l.href.startsWith('http') ? '_blank' : undefined}
-                    rel="noreferrer noopener"
-                    className="flex min-h-[28px] items-center justify-between rounded-[5px] border-2 border-ink bg-cream-100 px-2 text-[11px] font-extrabold uppercase tracking-[0.04em] shadow-hard2 transition-transform hover:-translate-y-[1px]"
-                  >
-                    {l.label} <span aria-hidden="true">↗</span>
-                  </a>
+              {socials.map((s) => (
+                <li key={s.id}>
+                  <SocialLink id={s.id} className="!min-h-[28px] w-full justify-between" />
                 </li>
               ))}
+              <li>
+                <a
+                  href="/ayush-thakur-cv.pdf"
+                  download
+                  className="flex min-h-[28px] items-center justify-between rounded-[5px] border-2 border-ink bg-cream-100 px-2 text-[11px] font-extrabold uppercase tracking-[0.04em] shadow-hard2 transition-transform hover:-translate-y-[1px]"
+                >
+                  Download CV <span aria-hidden="true">↓</span>
+                </a>
+              </li>
             </ul>
             <div className="rounded-[6px] border-2 border-ink bg-mint-100 p-1.5">
               <p className="mono text-ink/70">a good fit if</p>
