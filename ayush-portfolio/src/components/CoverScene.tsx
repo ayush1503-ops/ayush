@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion'
 import { useRouter } from '../lib/router'
-import { profile } from '../lib/site'
+import { profile, social, socials } from '../lib/site'
+import { SocialLink, SocialMark } from './Socials'
 
 /* ------------------------------------------------------------------ badges */
 function EnamelBadge({
@@ -94,17 +95,15 @@ function IdBadge() {
           Full-stack developer
         </p>
         <ul className="mt-1.5 flex justify-between gap-1">
-          {profile.socials.map((s) => (
-            <li key={s.label}>
-              <a
-                href={s.href}
-                target="_blank"
-                rel="noreferrer noopener"
-                aria-label={s.label}
-                className="grid size-[34px] place-items-center rounded-[5px] border-2 border-ink bg-cream-100 text-[12px] font-black uppercase transition-colors hover:bg-sun-300"
-              >
-                {s.label === "LinkedIn" ? "in" : s.label === "Email" ? "@" : s.label === "WhatsApp" ? "wa" : "gh"}
-              </a>
+          {socials.map((s) => (
+            <li key={s.id}>
+              <SocialLink
+                id={s.id}
+                label={false}
+                className="!min-h-[30px] !p-[2px]"
+                markClass="size-[26px]"
+                glyphClass="size-[14px]"
+              />
             </li>
           ))}
         </ul>
@@ -193,11 +192,12 @@ export function CoverScene() {
                 See the work ↗
               </button>
               <a
-                href={profile.socials[1].href}
+                href={social.gmail.href}
                 target="_blank"
                 rel="noreferrer noopener"
                 className="btn btn-sun !min-h-[38px] !text-[12px]"
               >
+                <SocialMark id="gmail" className="size-[19px]" glyphClass="size-[11px]" />
                 Start a project
               </a>
             </div>
@@ -220,7 +220,7 @@ export function CoverScene() {
             <div className="relative z-20 -mb-1 flex items-end justify-center gap-1.5">
               <TabCard title="Résumé" tone="bg-sun-300" sub="read" tilt={-2} onClick={() => navigate('/resume')} />
               <TabCard title="Portfolio" tone="bg-grape-400 text-cream-100" sub="choose" tilt={0} onClick={() => navigate('/portfolio')} />
-              <TabCard title="Contact" tone="bg-chilli-300" sub="write" tilt={2} onClick={() => navigate('/resume')} />
+              <TabCard title="Contact" tone="bg-chilli-300" sub="write" tilt={2} onClick={() => navigate('/portfolio#contact')} />
             </div>
 
             {/* the red striped container */}

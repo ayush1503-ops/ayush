@@ -1,10 +1,31 @@
 import { SlimFooter } from '../components/SlimFooter'
-import { arsenal, education, experience, gmailCompose, languages, profile, skills } from '../lib/site'
+import { SocialLink, SocialRow } from '../components/Socials'
+import {
+  arsenal,
+  education,
+  experience,
+  languages,
+  profile,
+  skills,
+  social,
+  TEL,
+} from '../lib/site'
 
 const toneCycle = ['bg-sun-300', 'bg-cream-100', 'bg-grape-200', 'bg-mint-200']
 
+type ContactRow = { k: string; v: string; href?: string }
+
 /** One screen of CV: masthead strip, experience, capability, contact rail. */
 export function Resume({ onNavigate }: { onNavigate: (to: string) => void }) {
+  const contacts: ContactRow[] = [
+    { k: 'Email', v: profile.email, href: social.gmail.href },
+    { k: 'Phone', v: profile.phone, href: `tel:${TEL}` },
+    { k: 'Base', v: profile.location },
+    { k: 'Status', v: profile.availability },
+    { k: 'Languages', v: languages.map((l) => l.name).join(', ') },
+    { k: 'Education', v: education.title },
+  ]
+
   return (
     <div id="top" className="flex min-h-[100svh] flex-col">
       {/* masthead strip */}
@@ -28,17 +49,11 @@ export function Resume({ onNavigate }: { onNavigate: (to: string) => void }) {
             <span className="chip !bg-cream-100">curriculum vitae</span>
             <span className="chip !bg-sun-300">edition 2026</span>
             <span className="chip">{profile.availability}</span>
-            <div className="ml-auto flex gap-1.5">
+
+            <div className="ml-auto flex flex-wrap items-center gap-1.5">
+              <SocialRow compact />
               <a href="/ayush-thakur-cv.pdf" download className="btn btn-ink !min-h-[30px] !px-2.5 !text-[11px]">
                 PDF ↓
-              </a>
-              <a
-                href={gmailCompose()}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="btn btn-sun !min-h-[30px] !px-2.5 !text-[11px]"
-              >
-                Email ↗
               </a>
               <button
                 type="button"
@@ -83,6 +98,21 @@ export function Resume({ onNavigate }: { onNavigate: (to: string) => void }) {
                       </li>
                     ))}
                   </ul>
+                  {job.links.length > 0 && (
+                    <div className="mt-1 flex flex-wrap gap-1.5">
+                      {job.links.map((l) => (
+                        <a
+                          key={l.label}
+                          href={l.href}
+                          target={l.href.startsWith('http') ? '_blank' : undefined}
+                          rel={l.href.startsWith('http') ? 'noreferrer noopener' : undefined}
+                          className="mono inline-flex min-h-[22px] items-center rounded-[4px] border-2 border-ink bg-cream-200 px-1.5 text-[9px] text-ink transition-colors hover:bg-sun-200"
+                        >
+                          {l.label} ↗
+                        </a>
+                      ))}
+                    </div>
+                  )}
                 </li>
               ))}
             </ol>
@@ -118,20 +148,30 @@ export function Resume({ onNavigate }: { onNavigate: (to: string) => void }) {
                 <span className="mono text-ink/60">delhi, in</span>
               </div>
               <ul className="grid grid-cols-2 gap-1.5 p-2">
-                {[
-                  ['Email', profile.email],
-                  ['Phone', profile.phone],
-                  ['Base', profile.location],
-                  ['Status', profile.availability],
-                  ['Languages', languages.map((l) => l.name).join(', ')],
-                  ['Education', education.title],
-                ].map(([k, v]) => (
-                  <li key={k} className="min-w-0 rounded-[5px] border-2 border-ink/80 bg-cream-200 px-1.5 py-1">
-                    <p className="mono text-ink/55">{k}</p>
-                    <p className="wrap-anywhere text-[11.5px] font-bold leading-tight">{v}</p>
+                {contacts.map((row) => (
+                  <li key={row.k} className="min-w-0 rounded-[5px] border-2 border-ink/80 bg-cream-200 px-1.5 py-1">
+                    <p className="mono text-ink/55">{row.k}</p>
+                    {row.href ? (
+                      <a
+                        href={row.href}
+                        target={row.href.startsWith('http') ? '_blank' : undefined}
+                        rel={row.href.startsWith('http') ? 'noreferrer noopener' : undefined}
+                        className="wrap-anywhere text-[11.5px] font-bold leading-tight underline decoration-2 underline-offset-2 transition-colors hover:text-grape-400"
+                      >
+                        {row.v}
+                      </a>
+                    ) : (
+                      <p className="wrap-anywhere text-[11.5px] font-bold leading-tight">{row.v}</p>
+                    )}
                   </li>
                 ))}
               </ul>
+              <div className="flex flex-wrap items-center gap-1.5 border-t-2 border-dashed border-ink/25 px-2 py-1.5">
+                <p className="mono text-ink/55">reach me</p>
+                <SocialLink id="gmail" className="!min-h-[24px] !text-[9.5px]" markClass="size-[16px]" glyphClass="size-[10px]" />
+                <SocialLink id="whatsapp" className="!min-h-[24px] !text-[9.5px]" markClass="size-[16px]" glyphClass="size-[10px]" />
+                <SocialLink id="linkedin" className="!min-h-[24px] !text-[9.5px]" markClass="size-[16px]" glyphClass="size-[10px]" />
+              </div>
             </section>
           </div>
         </div>

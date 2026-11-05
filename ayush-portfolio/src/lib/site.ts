@@ -1,6 +1,7 @@
 export const EMAIL = 'ayusheditor1503@gmail.com'
 export const WHATSAPP = 'https://wa.me/919599648246'
 export const LINKEDIN = 'https://www.linkedin.com/in/ayush-thakur-a91827419/'
+export const TEL = '+919599648246'
 
 export const gmailCompose = (subject = 'Project Requirements & Inquiry — Let’s connect') => {
   const body = `Hi Ayush,
@@ -22,6 +23,26 @@ Best regards,`
   )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 }
 
+/* ---------- contact channels: every one is a working destination ---------- */
+export type SocialId = 'gmail' | 'whatsapp' | 'linkedin'
+
+export const social: Record<
+  SocialId,
+  { id: SocialId; label: string; note: string; href: string }
+> = {
+  gmail: { id: 'gmail', label: 'Gmail', note: EMAIL, href: gmailCompose() },
+  whatsapp: { id: 'whatsapp', label: 'WhatsApp', note: '+91 95996 48246', href: WHATSAPP },
+  linkedin: {
+    id: 'linkedin',
+    label: 'LinkedIn',
+    note: 'in/ayush-thakur',
+    href: LINKEDIN,
+  },
+}
+
+/** Mail first, then chat, then the professional network. */
+export const socials = [social.gmail, social.whatsapp, social.linkedin]
+
 export const profile = {
   name: 'Ayush Thakur',
   role: 'Full-Stack Developer',
@@ -33,12 +54,7 @@ export const profile = {
   availability: 'Available for new missions',
   email: EMAIL,
   phone: '+91 95996 48246',
-  socials: [
-    { label: 'LinkedIn', href: LINKEDIN, icon: 'linkedin' as const },
-    { label: 'Email', href: gmailCompose(), icon: 'email' as const },
-    { label: 'WhatsApp', href: WHATSAPP, icon: 'whatsapp' as const },
-    { label: 'GitHub', href: 'https://github.com/', icon: 'github' as const },
-  ],
+  socials,
   stats: [
     { value: '04', label: 'live shipped apps', tone: 'yellow' as const },
     { value: '7–14d', label: 'typical sprint', tone: 'white' as const },

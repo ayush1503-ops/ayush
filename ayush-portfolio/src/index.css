@@ -24,7 +24,7 @@
    TOKENS
    ========================================================================== */
 :root {
-  --site-header-h: 58px;
+  --site-header-h: 48px;
   --z-rail: 5;
   --z-content: 10;
   --z-nav: 70;
@@ -358,6 +358,12 @@ body {
 }
 .plate:hover .plate-img {
   transform: scale(1.045);
+}
+
+/* social stickers: the brand mark never gets squashed by the chip grid */
+.social-mark svg,
+a svg {
+  display: block;
 }
 
 /* ============================================================================
