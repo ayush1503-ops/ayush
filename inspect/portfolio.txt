@@ -1,0 +1,37 @@
+<div . @0,0 0x0 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+<header .relative z-[70] shrink-0 @0,0 1440x60 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+  <div .site-toolbar flex h-[60px] items-center justify-between gap-3 border-b-4 border-black bg-neutral-100 px-6 phone:px-4  @0,0 1440x60 bg=rgb(255, 255, 255) sh=none 16px/400 ls=normal br=0px bd=>
+    <nav .min-w-0 @24,10 226x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <ol .flex min-w-0 items-center gap-3 phone:gap-2 @24,10 226x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+        <li .flex min-w-0 shrink-0  @24,10 98x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <a .inline-flex h-9 shrink-0 items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 text-sm font-bold uppercase tracking-wide text-bla @24,10 98x36 bg=rgb(255, 255, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+            <img .size-5 brightness-0 @38,18 20x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+            <span .phone:sr-only @64,18 44x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: Home
+        <li .flex min-w-0   @134,10 115x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <span .inline-flex h-9 min-w-0 select-none items-center rounded-[6px] border border-black bg-neutral-100 px-3 text-sm font-bold uppercase tracking-wide text- @134,10 115x36 bg=rgb(255, 255, 255) sh=none 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+            <span .truncate @148,18 87x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)> TXT: Portfolio
+    <div .flex min-w-0 flex-1 phone:hidden @262,12 872x31 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <div .site-hint relative ml-3 flex min-w-0 @274,12 495x31 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+        <p .min-w-0 truncate rounded-[8px] border border-black bg-primary-yellow-100 px-3 py-1 type-small font-bold text-black @274,12 495x31 bg=rgb(255, 240, 180) sh=none 14px/700 ls=normal br=8px bd=2px solid rgb(0, 0, 0)> TXT: Check out the project cartridges — click one to open its case study
+        <span .absolute -left-[6px] top-1/2 size-3 -translate-y-1/2 rotate-45 border-b border-l border-black bg-primary-yellow-100 @265,20 17x17 bg=rgb(255, 240, 180) sh=none 16px/400 ls=normal br=0px bd=>
+    <div .flex shrink-0 items-center gap-3 phone:hidden @1146,10 270x36 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <a .inline-flex h-9 shrink-0 items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 text-sm font-bold uppercase tracking-wide text-bla @1146,10 86x36 bg=rgb(132, 235, 180) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)> TXT: Résumé
+      <a .inline-flex h-9 shrink-0 items-center justify-center gap-1.5 rounded-[6px] border border-black px-3 text-sm font-bold uppercase tracking-wide text-bla @1244,10 172x36 bg=rgb(255, 211, 30) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 14px/700 ls=0.35px br=6px bd=2px solid rgb(0, 0, 0)>
+        <img .size-5 @1258,18 20x20 bg=rgba(0, 0, 0, 0) sh=none 14px/700 ls=0.35px br=0px bd=0px solid rgb(0, 0, 0)>
+    <div .hidden shrink-0 phone:flex @0,0 0x0 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <button .flex shrink-0 items-center justify-center rounded-full border border-black bg-secondary-200 shadow-[3px_3px_0px_0px_black] transition-[transform,box-s @0,0 0x0 bg=rgb(75, 106, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=3.35544e+07px bd=2px solid rgb(0, 0, 0)>
+        <img . @0,0 0x0 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+<main .h-[calc(100dvh-var(--site-header-h))] bg-primary-300 @0,60 1440x840 bg=rgb(243, 103, 14) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+  <div .relative w-full @0,60 1440x840 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+    <div .absolute inset-0 @0,60 1440x840 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <div . @0,60 1440x840 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+        <div .konvajs-content @0,60 1440x840 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+          <canvas . @0,60 1440x840 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px none rgb(0, 0, 0)>
+    <div .absolute inset-0 pointer-events-none overflow-hidden @0,60 1440x840 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <div .cotton-overlay @0,60 1440x840 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+  <nav .fixed left-1/2 z-50 flex -translate-x-1/2 items-center gap-[14px] @700,603 40x40 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+    <a .flex shrink-0 items-center justify-center rounded-full border border-black bg-secondary-200 shadow-[3px_3px_0px_0px_black] transition-[transform,box-s @700,603 40x40 bg=rgb(75, 106, 255) sh=rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0 16px/400 ls=normal br=3.35544e+07px bd=2px solid rgb(0, 0, 0)>
+      <img . @707,610 26x26 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>
+      <span .pointer-events-none absolute bottom-full left-1/2 z-50 mb-[10px] -translate-x-1/2 whitespace-nowrap rounded-[4px] border border-black bg-[rgba(15,23,4 @668,563 105x33 bg=rgba(15, 23, 42, 0.96) sh=none 11px/400 ls=normal br=4px bd=2px solid rgb(0, 0, 0)>
+        <span .absolute left-1/2 top-full -translate-x-1/2 border border-transparent border-t-[rgba(15,23,42,0.96)] @718,593 4x4 bg=rgba(0, 0, 0, 0) sh=none 11px/400 ls=normal br=0px bd=>
+<next-route-announcer . @0,900 0x0 bg=rgba(0, 0, 0, 0) sh=none 16px/400 ls=normal br=0px bd=0px solid rgb(0, 0, 0)>

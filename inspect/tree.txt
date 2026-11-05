@@ -1,0 +1,13 @@
+<div class="" id="" @0,0 0x0 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=static> TEXT: 
+<header class="relative z-[70] shrink-0" id="" @0,0 1440x0 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=relative> TEXT: 
+<main class="mobile-stripes h-[calc(100dvh-var(--site-header-h))] bg-primary-300" id="" @0,0 1440x900 bg=rgb(243, 103, 14) color=rgb(0, 0, 0) font=Jost 16px/400 pos=static>
+  <div class="relative w-full" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=relative>
+    <div class="absolute inset-0" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=absolute>
+      <div class="" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=static>
+        <div class="konvajs-content" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=relative>
+          <canvas class="" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=absolute> TEXT: 
+          <canvas class="" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=absolute> TEXT: 
+          <canvas class="" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=absolute> TEXT: 
+    <div class="absolute inset-0 pointer-events-none overflow-hidden" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=absolute>
+      <div class="cotton-overlay" id="" @0,0 1440x900 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=static> TEXT: 
+<next-route-announcer class="" id="" @0,900 0x0 bg=rgba(0, 0, 0, 0) color=rgb(0, 0, 0) font=Jost 16px/400 pos=absolute> TEXT: 
