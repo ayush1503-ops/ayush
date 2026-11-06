@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { CartridgeRack } from './CartridgeRack'
 import { Faq, Tariff } from './sections'
 import { Stamp } from './primitives'
+import { asset } from '../lib/asset'
 import { arsenal, fitList, gmailCompose, profile, skills, socials } from '../lib/site'
 import type { Project } from '../lib/site'
 import { GmailIcon } from './BrandIcons'
@@ -33,14 +34,14 @@ export function PortfolioApp({
   return (
     <div className="overflow-hidden rounded-[8px] border-2 border-ink bg-cream-100">
       {/* app menu */}
-      <div className="flex flex-wrap items-center gap-1 border-b-2 border-ink bg-cream-200 px-1.5 py-1.5">
+      <div className="flex flex-wrap items-center gap-1 border-b-2 border-ink bg-cream-200 px-1 py-1.5 desk:px-1.5">
         {TABS.map((t) => (
           <button
             key={t.id}
             type="button"
             onClick={() => setTab(t.id)}
             aria-pressed={tab === t.id}
-            className={`min-h-[26px] rounded-[5px] border-2 border-ink px-1.5 text-[10px] desk:px-2 desk:text-[11px] font-extrabold uppercase tracking-[0.04em] shadow-hard2 transition-transform hover:-translate-y-[1px] ${
+            className={`min-h-[26px] shrink-0 rounded-[5px] border-2 border-ink px-1 text-[9.5px] desk:px-2 desk:text-[11px] font-extrabold uppercase tracking-[0.02em] desk:tracking-[0.04em] shadow-hard2 transition-transform hover:-translate-y-[1px] ${
               tab === t.id ? 'bg-grape-400 text-cream-100' : 'bg-cream-100'
             }`}
           >
@@ -57,7 +58,7 @@ export function PortfolioApp({
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <img
-                src="/art/avatar.png"
+                src={asset('/art/avatar.png')}
                 alt="Illustrated portrait of Ayush Thakur"
                 className="h-[92px] w-[80px] shrink-0 rounded-[6px] border-2 border-ink object-cover"
               />
@@ -131,7 +132,7 @@ export function PortfolioApp({
               ))}
               <li>
                 <a
-                  href="/ayush-thakur-cv.pdf"
+                  href={asset('/ayush-thakur-cv.pdf')}
                   download
                   className="flex min-h-[28px] items-center justify-between rounded-[5px] border-2 border-ink bg-cream-100 px-2 text-[11px] font-extrabold uppercase tracking-[0.04em] shadow-hard2 transition-transform hover:-translate-y-[1px]"
                 >

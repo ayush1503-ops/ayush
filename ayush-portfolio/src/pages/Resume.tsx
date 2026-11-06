@@ -1,4 +1,5 @@
 import { SlimFooter } from '../components/SlimFooter'
+import { asset } from '../lib/asset'
 import { SocialLink, SocialRow } from '../components/Socials'
 import {
   arsenal,
@@ -33,7 +34,7 @@ export function Resume({ onNavigate }: { onNavigate: (to: string) => void }) {
         <div className="mx-auto max-w-[1240px] px-3 pb-3">
           <div className="flex items-center gap-2.5">
             <img
-              src="/art/avatar.png"
+              src={asset('/art/avatar.png')}
               alt="Illustrated portrait of Ayush Thakur"
               className="size-[52px] shrink-0 rotate-[-3deg] rounded-[6px] border-2 border-ink object-cover shadow-hard2"
             />
@@ -52,7 +53,7 @@ export function Resume({ onNavigate }: { onNavigate: (to: string) => void }) {
 
             <div className="ml-auto flex flex-wrap items-center gap-1.5">
               <SocialRow compact />
-              <a href="/ayush-thakur-cv.pdf" download className="btn btn-ink !min-h-[30px] !px-2.5 !text-[11px]">
+              <a href={asset('/ayush-thakur-cv.pdf')} download className="btn btn-ink !min-h-[30px] !px-2.5 !text-[11px]">
                 PDF ↓
               </a>
               <button

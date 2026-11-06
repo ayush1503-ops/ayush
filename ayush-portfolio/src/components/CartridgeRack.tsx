@@ -69,7 +69,11 @@ export function CartridgeRack({ onOpen, bare = false }: { onOpen: (p: Project) =
 
         {/* cartridges */}
         <div className="p-2">
-          <div role="tablist" aria-label="Filter projects" className="mb-2 flex flex-wrap gap-1.5">
+          <div
+            role="tablist"
+            aria-label="Filter projects"
+            className="no-scrollbar mb-2 flex flex-nowrap gap-1.5 overflow-x-auto pb-0.5 desk:flex-wrap desk:overflow-visible"
+          >
             {filters.map((f) => {
               const active = filter === f.id
               return (
@@ -78,7 +82,7 @@ export function CartridgeRack({ onOpen, bare = false }: { onOpen: (p: Project) =
                   role="tab"
                   aria-selected={active}
                   onClick={() => setFilter(f.id)}
-                  className={`min-h-[26px] rounded-[5px] border-2 border-ink px-2 py-[2px] text-[11px] font-extrabold uppercase tracking-[0.04em] shadow-hard2 transition-transform hover:-translate-y-[1px] ${
+                  className={`min-h-[26px] shrink-0 rounded-[5px] border-2 border-ink px-2 py-[2px] text-[11px] font-extrabold uppercase tracking-[0.04em] shadow-hard2 transition-transform hover:-translate-y-[1px] ${
                     active ? 'bg-grape-400 text-cream-100' : 'bg-cream-100'
                   }`}
                 >

@@ -10,14 +10,14 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url('/fonts/jost-latin.woff2') format('woff2');
+  src: url('../fonts/jost-latin.woff2') format('woff2');
 }
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 400 500;
   font-display: swap;
-  src: url('/fonts/jetbrains.woff2') format('woff2');
+  src: url('../fonts/jetbrains.woff2') format('woff2');
 }
 
 /* ============================================================================
@@ -454,6 +454,12 @@ a svg {
 .track {
   display: flex;
   will-change: transform;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 .zip-seam {
   background-image: repeating-linear-gradient(90deg, #0a0a0a 0 7px, transparent 7px 12px);

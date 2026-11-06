@@ -1,4 +1,5 @@
 import { useRouter } from '../lib/router'
+import { asset } from '../lib/asset'
 import { socials } from '../lib/site'
 import { SocialLink } from './Socials'
 
@@ -62,7 +63,7 @@ export function Toolbar() {
           >
             Résumé
           </button>
-          <a href="/ayush-thakur-cv.pdf" download className={`${navChip} bg-sun-300`}>
+          <a href={asset('/ayush-thakur-cv.pdf')} download className={`${navChip} bg-sun-300`}>
             <span aria-hidden="true">↓</span>
             <span className="hidden sm:inline">Download </span>CV
           </a>
