@@ -7,6 +7,7 @@
     "dev": "vite --host 0.0.0.0 --port 5173",
     "start": "vite --host 0.0.0.0 --port 5173",
     "build": "tsc -b && vite build",
+    "build:offline": "node scripts/offline.mjs",
     "preview": "vite preview --host 0.0.0.0 --port 4173",
     "serve": "vite preview --host 0.0.0.0 --port 4173"
   },

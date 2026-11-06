@@ -1,3 +1,4 @@
+import { asset } from '../lib/asset'
 import { profile } from '../lib/site'
 import { SocialLink } from './Socials'
 
@@ -18,7 +19,7 @@ export function SlimFooter({ onNavigate }: { onNavigate: (to: string) => void })
             ))}
           </ul>
           <a
-            href="/ayush-thakur-cv.pdf"
+            href={asset('/ayush-thakur-cv.pdf')}
             download
             className="mono flex min-h-[30px] items-center rounded-[4px] border-2 border-ink bg-cream-100 px-2 text-[10px] text-ink shadow-hard2"
           >

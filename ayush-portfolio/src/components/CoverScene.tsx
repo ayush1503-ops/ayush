@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion'
 import { useRouter } from '../lib/router'
+import { asset } from '../lib/asset'
 import { profile, social, socials } from '../lib/site'
 import { SocialLink, SocialMark } from './Socials'
 
@@ -86,7 +87,7 @@ function IdBadge() {
       <span aria-hidden="true" className="absolute -top-2 left-1/2 h-3 w-8 -translate-x-1/2 rounded-[2px] border-2 border-ink bg-cream-200" />
       <div className="relative rounded-[12px] border-2 border-ink bg-sun-200 p-2 shadow-hard5">
         <div className="overflow-hidden rounded-[7px] border-2 border-ink">
-          <img src="/art/avatar.png" alt="Illustrated portrait of Ayush Thakur" className="aspect-[6/5] w-full object-cover" />
+          <img src={asset('/art/avatar.png')} alt="Illustrated portrait of Ayush Thakur" className="aspect-[6/5] w-full object-cover" />
         </div>
         <p className="mt-1.5 rounded-[5px] border-2 border-ink bg-cream-100 px-1.5 py-[3px] text-center text-[13px] font-black uppercase leading-none">
           {profile.name.split(' ')[0]}
@@ -205,11 +206,11 @@ export function CoverScene() {
 
           {/* enamel badges, pinned exactly like the reference */}
           <div className="pointer-events-none absolute -right-4 -top-10 hidden tab:block">
-            <EnamelBadge image="/art/mascot-bee.png" alt="" label="ships on time" tone="#f3670e" size={82} spin />
+            <EnamelBadge image={asset('/art/mascot-bee.png')} alt="" label="ships on time" tone="#f3670e" size={82} spin />
           </div>
           <div className="pointer-events-none absolute -bottom-12 left-2 flex origin-bottom-left items-end gap-2 phone:scale-[0.72]">
-            <EnamelBadge image="/art/mascot-bird.png" alt="" label="no templates" tone="#4b6aff" size={74} />
-            <EnamelBadge image="/art/mascot-dog.png" alt="" label="hand coded" tone="#ffd31e" size={74} />
+            <EnamelBadge image={asset('/art/mascot-bird.png')} alt="" label="no templates" tone="#4b6aff" size={74} />
+            <EnamelBadge image={asset('/art/mascot-dog.png')} alt="" label="hand coded" tone="#ffd31e" size={74} />
           </div>
         </div>
 
@@ -231,8 +232,8 @@ export function CoverScene() {
                 style={{ backgroundImage: 'repeating-linear-gradient(90deg, rgba(10,10,10,0.22) 0 10px, transparent 10px 26px)' }}
               />
               <div className="relative flex items-end gap-2 p-3">
-                <img src="/art/folder-art.png" alt="" className="h-[150px] flex-1 rounded-[6px] border-2 border-ink object-cover" />
-                <img src="/art/folder-art.png" alt="" className="hidden h-[110px] w-[42%] rounded-[6px] border-2 border-ink object-cover tab:block" />
+                <img src={asset('/art/folder-art.png')} alt="" className="h-[150px] flex-1 rounded-[6px] border-2 border-ink object-cover" />
+                <img src={asset('/art/folder-art.png')} alt="" className="hidden h-[110px] w-[42%] rounded-[6px] border-2 border-ink object-cover tab:block" />
               </div>
               <p className="relative border-t-2 border-ink bg-ink py-1 pl-3 pr-2 text-left text-[9.5px] font-black uppercase tracking-[0.05em] text-sun-300 desk:pl-[248px] desk:pr-4">
                 4 case files · open laptop

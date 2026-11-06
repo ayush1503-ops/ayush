@@ -10,6 +10,7 @@ import {
 } from 'framer-motion'
 import { CoverScene } from '../components/CoverScene'
 import { Dossier } from '../components/Dossier'
+import { asset } from '../lib/asset'
 import { Plate } from '../components/Plate'
 import { SlimFooter } from '../components/SlimFooter'
 import { gmailCompose, profile, projects, type Project } from '../lib/site'
@@ -24,7 +25,7 @@ function OverviewStrip({ onNavigate }: { onNavigate: (to: string) => void }) {
       <div className="mx-auto flex max-w-[1240px] flex-col gap-2 px-3 py-2.5 desk:flex-row desk:items-center desk:gap-3">
         <div className="flex min-w-0 flex-1 items-center gap-2.5">
           <img
-            src="/art/avatar.png"
+            src={asset('/art/avatar.png')}
             alt="Illustrated portrait of Ayush Thakur"
             className="size-[58px] shrink-0 rotate-[-3deg] rounded-[6px] border-2 border-ink object-cover shadow-hard2"
           />
@@ -124,8 +125,12 @@ function ZipStage({ onOpen }: { onOpen: (p: Project) => void }) {
 
   const topY = useTransform(p, [0.05, 0.5], ['0%', '-102%'])
   const bottomY = useTransform(p, [0.05, 0.5], ['0%', '102%'])
-  const tabX = useTransform(p, [0.02, 0.54], ['0%', '100%'])
-  const tabOpacity = useTransform(p, [0.5, 0.58], [1, 0])
+  // Kept off the very edges: the tab hangs 19px to the left of its track, so
+  // 0%/-100% would clip half of it against the viewport.
+  const tabX = useTransform(p, [0.02, 0.54], ['5%', '95%'])
+  // Faded out before the plates finish arriving, so the tab never sits on top
+  // of a project card.
+  const tabOpacity = useTransform(p, [0.4, 0.5], [1, 0])
 
   useMotionValueEvent(p, 'change', (v) => setRevealed(!animated || v > 0.1))
 
@@ -181,7 +186,9 @@ function ZipStage({ onOpen }: { onOpen: (p: Project) => void }) {
               aria-hidden="true"
             >
               <div className="pointer-events-none absolute inset-0 halftone opacity-[0.09]" />
-              <div className="shell relative flex h-full flex-col justify-between py-4">
+              {/* pb-* reserves a clear gutter so the riding tab never covers the
+                  title, and the subtitle never collides with its label. */}
+              <div className="shell relative flex h-full flex-col justify-between py-4 pb-16">
                 <span className="mono">Vol. 01 — closed file</span>
                 <div className="flex items-end justify-between gap-6">
                   <div>
@@ -203,7 +210,7 @@ function ZipStage({ onOpen }: { onOpen: (p: Project) => void }) {
             >
               <div className="pointer-events-none absolute inset-0 halftone opacity-[0.08]" />
               <div className="absolute inset-x-0 top-0 h-[12px] zip-seam" />
-              <div className="shell relative flex h-full flex-col justify-between py-4">
+              <div className="shell relative flex h-full flex-col justify-between py-4 pt-16">
                 <div className="flex items-start justify-between gap-6">
                   <p className="max-w-[34ch] text-[13px] leading-snug text-cream-200">
                     {projects.map((p2) => p2.title).join(' · ')}
